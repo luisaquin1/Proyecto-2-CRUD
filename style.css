@@ -42,7 +42,6 @@
   border-spacing: 10px;
 }
 #nombre {
-  display: flex;
   align-items: center;
   width: 200px;
 }
@@ -68,10 +67,10 @@
   text-align: center;
   background-color: gray;
   height: 400px;
-  width: 400px;
+  width: 600px;
 }
 .div-personas {
-  flex-direction: column;
+  justify-content: space-between;
 }
 .footer {
   display: flex;
@@ -81,8 +80,7 @@
   background-color: rgb(4, 106, 124);
 }
 .footer1 {
-  display: flex;
-  justify-content: baseline;
+  justify-content: space-between;
 }
 
 .n1 {
