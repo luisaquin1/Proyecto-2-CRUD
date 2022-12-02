@@ -67,8 +67,11 @@
 .listaPersonas {
   text-align: center;
   background-color: gray;
-  height: 300px;
-  width: 220px;
+  height: 400px;
+  width: 400px;
+}
+.div-personas {
+  flex-direction: column;
 }
 .footer {
   display: flex;
