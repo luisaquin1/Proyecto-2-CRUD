@@ -22,7 +22,7 @@ formulario.addEventListener(`submit`, validarF);
 function validarF(element) {
   element.preventDefault();
   if (nombreA.value === "" || correoA.value === "" || telefonoA.value === "") {
-    alert("TOdos los campos son obligatorios");
+    alert("Todos los campos son obligatorios");
     return;
   }
   personas.Nombre = nombreA.value;
@@ -69,7 +69,9 @@ function mostrarPersonas() {
     const { id, Nombre, Correo, Telefono } = persona;
 
     const parrafo = document.createElement("p");
-    parrafo.textContent = `${Nombre} - ${Correo} - ${Telefono}`;
+    parrafo.textContent = `${Nombre}
+    ${Correo} 
+     ${Telefono}`;
     parrafo.dataset.id = id;
 
     const editarBoton = document.createElement(`button`);
