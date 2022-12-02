@@ -69,9 +69,9 @@ function mostrarPersonas() {
     const { id, Nombre, Correo, Telefono } = persona;
 
     const parrafo = document.createElement("p");
-    parrafo.textContent = `${Nombre}
-    ${Correo} 
-     ${Telefono}`;
+    parrafo.textContent = `${Nombre}  ---            
+     ${Correo}  ---
+      ${Telefono}`;
     parrafo.dataset.id = id;
 
     const editarBoton = document.createElement(`button`);
