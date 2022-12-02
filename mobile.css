@@ -1,0 +1,33 @@
+.pro {
+  display: none;
+}
+.contacto {
+  display: none;
+}
+.presentacion {
+  display: none;
+}
+.menu {
+  flex-direction: column;
+  height: 50%;
+  align-items: flex-start;
+  text-align: center;
+}
+.main {
+  flex-direction: column;
+  height: 40%;
+  align-items: center;
+  text-align: center;
+}
+
+.form2 {
+  height: 100px;
+  width: 220px;
+}
+
+.footer {
+  flex-direction: column;
+  height: 50%;
+  align-items: center;
+  text-align: center;
+}

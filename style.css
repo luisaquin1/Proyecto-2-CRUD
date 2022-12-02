@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  background-color: rgb(4, 106, 124);
+}
+.p1 {
+  color: white;
+}
+.p2 {
+  color: white;
+}
+.p3 {
+  color: white;
+}
+.p4 {
+  color: white;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(245, 247, 146);
+  height: 500px;
+}
+
+.form1 {
+  background-color: gray;
+  height: 300px;
+  width: 220px;
+  display: grid;
+  place-content: inherit;
+  text-align: center;
+}
+#form2 {
+  border-spacing: 10px;
+}
+#nombre {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+#correo {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+#telefono {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+#boton {
+  display: flex;
+  align-items: center;
+}
+
+.listaPersonas {
+  text-align: center;
+  background-color: gray;
+  height: 300px;
+  width: 220px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  background-color: rgb(4, 106, 124);
+}
+.footer1 {
+  display: flex;
+  justify-content: baseline;
+}
+
+.n1 {
+  color: white;
+}
+.n2 {
+  color: white;
+}
